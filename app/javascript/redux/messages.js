@@ -21,5 +21,4 @@ export const getMessages = () => (dispatch) => {
   });
 };
 
-
 export default messageReducer;

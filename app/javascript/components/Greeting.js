@@ -4,17 +4,17 @@ import { PropTypes } from 'prop-types';
 const Greeting = (props) => {
   const message = props;
   const {
-    id, greeting
+    id, greeting,
   } = message.message;
   return (
-    <div class="single-message" key={id}>
-      <p class="message-info">{greeting}</p>      
+    <div className="single-message" key={id}>
+      <p className="message-info">{greeting}</p>
     </div>
-  )
-}
+  );
+};
 
 Greeting.protoTypes = {
   message: PropTypes.object.isRequired,
 };
 
-export default Greeting
+export default Greeting;

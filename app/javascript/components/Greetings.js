@@ -1,26 +1,26 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import Greeting from './Greeting'
+import { getMessages } from '../redux/messages';
+import Greeting from './Greeting';
 
 const Greetings = () => {
-
-  const messages = useSelector(() => messages);
+  const messages = useSelector((state) => state.messages);
 
   const dispatch = useDispatch();
 
   useEffect(() => {
     if (messages.length === 0) {
-      dispatch(messages());
+      dispatch(getMessages());
     }
   }, []);
 
   return (
-    <div class="all-messages">
+    <div className="all-messages">
       { messages && messages.map((message) => (
-          <Greeting message={message} key={message.id} />
-        )) }
+        <Greeting message={message} key={message.id} />
+      )) }
     </div>
-  )
-}
+  );
+};
 
-export default Greetings
+export default Greetings;
