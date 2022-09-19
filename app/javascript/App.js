@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Greetings from './Components/Greetings.js';
+import Greetings from './Components/Greetings';
 
 const App = () => (
   <Router>
