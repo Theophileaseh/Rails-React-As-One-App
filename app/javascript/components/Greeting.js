@@ -14,6 +14,7 @@ const Greeting = (props) => {
 };
 
 Greeting.protoTypes = {
+  // eslint-disable-next-line react/forbid-prop-types
   message: PropTypes.object.isRequired,
 };
 

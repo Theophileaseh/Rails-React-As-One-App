@@ -12,7 +12,7 @@ const Greetings = () => {
     if (messages.length === 0) {
       dispatch(getMessages());
     }
-  }, []);
+  }, [dispatch, messages.length]);
 
   return (
     <div className="all-messages">
