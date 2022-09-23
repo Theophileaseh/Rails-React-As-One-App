@@ -23,9 +23,7 @@
   "ignorePatterns": [
     "dist/",
     "build/",
-    "yarn.lock",
-    "package-lock.json",
-    "yarn-error.log",
-    "node_modules"
+    "./node_modules",
+    "builds"
   ]
 }
