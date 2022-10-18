@@ -1,24 +1,66 @@
-# README
+# Rails React As One App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> An application built using Ruby on Rails and React. It shows how you can combine a ruby on rails application together with react as one app.
 
-Things you may want to cover:
 
-* Ruby version
 
-* System dependencies
+## Built With
 
-* Configuration
+- Ruby on Rails
+- Ruby
+- Rubocop
+- React
 
-* Database creation
+## Getting Started
+To get a local copy up and running follow these simple example steps.
 
-* Database initialization
+### Prerequisites
 
-* How to run the test suite
+``VS Code or other Code Editor``
 
-* Services (job queues, cache servers, search engines, etc.)
+### Setup
 
-* Deployment instructions
+``Install Postgres and Ruby applications``
 
-* ...
+### Install
+
+    git clone https://github.com/Theophileaseh/Rails-React-As-One-App.git
+
+### Usage
+
+``cd Rails-React-As-One-App``
+
+``bundle install``
+
+``Run "rails server or rails s" to start the application on local server``
+
+### Run tests
+
+``Run "rspec" in your terminal``
+
+
+## Authors
+
+👤 **Nwachan Theophile**
+
+- GitHub: [@Theophileash](https://github.com/Theophileaseh)
+- Twitter: [@NwachanT](https://twitter.com/NwachanT)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/nwachan-theophile)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
